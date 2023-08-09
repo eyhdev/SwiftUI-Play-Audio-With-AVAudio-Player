@@ -14,6 +14,7 @@
 		D40B26902A83F030001FB58E /* AudioPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40B268F2A83F030001FB58E /* AudioPlayerTests.swift */; };
 		D40B269A2A83F030001FB58E /* AudioPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40B26992A83F030001FB58E /* AudioPlayerUITests.swift */; };
 		D40B269C2A83F030001FB58E /* AudioPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40B269B2A83F030001FB58E /* AudioPlayerUITestsLaunchTests.swift */; };
+		D40B26A92A83F051001FB58E /* forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D40B26A82A83F051001FB58E /* forest.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D40B26952A83F030001FB58E /* AudioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40B26992A83F030001FB58E /* AudioPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerUITests.swift; sourceTree = "<group>"; };
 		D40B269B2A83F030001FB58E /* AudioPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D40B26A82A83F051001FB58E /* forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = forest.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				D40B267E2A83F02E001FB58E /* AudioPlayerApp.swift */,
+				D40B26A82A83F051001FB58E /* forest.mp3 */,
 				D40B26802A83F02E001FB58E /* ContentView.swift */,
 				D40B26822A83F030001FB58E /* Assets.xcassets */,
 				D40B26842A83F030001FB58E /* Preview Content */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D40B26862A83F030001FB58E /* Preview Assets.xcassets in Resources */,
+				D40B26A92A83F051001FB58E /* forest.mp3 in Resources */,
 				D40B26832A83F030001FB58E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +421,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AudioPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = WT54TQ5G55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AudioPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = WT54TQ5G55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
